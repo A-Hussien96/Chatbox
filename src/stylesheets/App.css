@@ -22,7 +22,7 @@ code {
 }
 
 html {
-    background: url("./assets/background.jpeg") no-repeat center center fixed;
+    background: url("../assets/background.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -41,11 +41,31 @@ html {
     color: #61dafb;
 }
 
-
-.chatbox{
+.chatbox {
     position: absolute;
     bottom: 10%;
     right: 15%;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.sc-header--img {
+    width: 50px;
+}
+
+.sc-user-input {
+    border-top: 1px solid;
+    text-align: left;
+}
+.sc-open-icon:hover, .sc-closed-icon:hover{
+    cursor: pointer;
+}
+.sc-message--content{
+    text-align: left;
+}
+.sc-user-input--file-icon-wrapper{
+    display: none !important;
+}
+sc-user-input--send-icon-wrapper{
+    display: block;
 }
