@@ -14,8 +14,6 @@ export default class ChatBox extends Component {
     }
 
     componentDidMount = async () => {
-        let myStorage = window.localStorage;
-        // let currentStepNum = myStorage.getItem("currentStepNum");
         let currentStepNum = null;
         if (currentStepNum) {
             this.setState({currentStepNum});
