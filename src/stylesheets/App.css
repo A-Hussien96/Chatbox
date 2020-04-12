@@ -69,3 +69,57 @@ html {
 sc-user-input--send-icon-wrapper{
     display: block;
 }
+
+.LoginState{
+    margin: 10%;
+}
+.dataField{
+    height: 50px;
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+}
+.dataField .inputLabel{
+    height: 100%;
+    flex: 1;
+}
+.dataField input{
+    height: 100%;
+    padding: 0 15px;
+    flex: 2;
+}
+#customBtn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    /*width: 190px;*/
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    white-space: nowrap;
+    margin-top: 15%;
+}
+#customBtn:hover {
+    cursor: pointer;
+}
+span.label {
+    font-family: serif;
+    font-weight: normal;
+}
+span.icon {
+    background: url('../assets/fb.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+}
+span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+}
